@@ -1,0 +1,18 @@
+console.log('    유정수')
+for(var s=0; s < 6; s++){
+    var star = ['*', '*','*','*','*','*','*','*','*','*', '*', '*']
+    if(s == 0){star[3] = ' ';
+               star[2] = ' ';
+              star[8] = ' ';
+              star[9] = ' ';}
+    else{
+    for(var i = 0; i < star.length/2 - s + 1; i++){
+        star[star.length/2 - i] = ' '
+        star[star.length/2 + i -1] = ' '
+    }
+    if(s == 1){star[5] = '*';
+              star[6] = '*'}}
+   console.log(star.join(''))
+
+}
+console.log('    사랑해')
