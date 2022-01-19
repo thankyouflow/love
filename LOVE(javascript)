@@ -1,4 +1,4 @@
-console.log('    유정수')
+console.log(' 이성은 사랑해')
 for(var s=0; s < 6; s++){
     var star = ['*', '*','*','*','*','*','*','*','*','*', '*', '*']
     if(s == 0){star[3] = ' ';
@@ -15,4 +15,3 @@ for(var s=0; s < 6; s++){
    console.log(star.join(''))
 
 }
-console.log('    사랑해')
